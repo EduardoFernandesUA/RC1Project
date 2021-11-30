@@ -1,0 +1,23 @@
+Nov 30 15:48:02.214 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Nov 30 15:48:02.215 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54238.
+Nov 30 15:48:02.225 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 30 15:48:02.226 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/joaoafonso/Desktop/UA/Ano2-ECT/RC1/Final Project-GNS3/finalProject/project-files/dynamips 
+Nov 30 15:48:02.226 GENERAL: working_dir=/Users/joaoafonso/Desktop/UA/Ano2-ECT/RC1/Final Project-GNS3/finalProject/project-files/dynamips
+Nov 30 15:48:02.226 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/joaoafonso/Desktop/UA/Ano2-ECT/RC1/Final Project-GNS3/finalProject/project-files/dynamips/67c2b768-bdd5-467b-acfb-7ca27e022734 
+Nov 30 15:48:02.226 GENERAL: working_dir=/Users/joaoafonso/Desktop/UA/Ano2-ECT/RC1/Final Project-GNS3/finalProject/project-files/dynamips/67c2b768-bdd5-467b-acfb-7ca27e022734
+Nov 30 15:48:02.226 HYPERVISOR: exec_cmd: vm create ISP 2 c3725 
+Nov 30 15:48:02.228 VM: VM ISP created.
+Nov 30 15:48:02.229 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5004 
+Nov 30 15:48:02.229 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISP 
+Nov 30 15:48:02.229 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Nov 30 15:48:02.230 HYPERVISOR: exec_cmd: vm get_status ISP 
+Nov 30 15:48:02.230 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x60a68e70 
+Nov 30 15:48:02.231 HYPERVISOR: exec_cmd: vm set_ios ISP /Users/joaoafonso/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Nov 30 15:48:02.231 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISP c202.0fbc.0000 
+Nov 30 15:48:02.231 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
+Nov 30 15:48:02.969 HYPERVISOR: exec_cmd: nio create_udp udp-2edb929f-97ea-4cc6-a24c-5cc433bc41a1 10010 127.0.0.1 10011 
+Nov 30 15:48:03.195 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-2edb929f-97ea-4cc6-a24c-5cc433bc41a1 
+Nov 30 15:48:03.196 HYPERVISOR: exec_cmd: vm get_status ISP 
+Nov 30 15:48:03.272 HYPERVISOR: exec_cmd: nio create_udp udp-e737affc-8c20-4566-a0ea-294c11d45f10 10014 127.0.0.1 10015 
+Nov 30 15:48:03.275 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 1 udp-e737affc-8c20-4566-a0ea-294c11d45f10 
+Nov 30 15:48:03.275 HYPERVISOR: exec_cmd: vm get_status ISP 

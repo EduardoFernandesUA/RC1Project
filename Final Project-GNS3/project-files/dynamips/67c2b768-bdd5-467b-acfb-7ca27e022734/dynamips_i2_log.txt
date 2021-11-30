@@ -1,0 +1,24 @@
+Nov 30 15:48:02.176 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Nov 30 15:48:02.176 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54235.
+Nov 30 15:48:02.187 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 30 15:48:02.187 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/joaoafonso/Desktop/UA/Ano2-ECT/RC1/Final Project-GNS3/finalProject/project-files/dynamips 
+Nov 30 15:48:02.187 GENERAL: working_dir=/Users/joaoafonso/Desktop/UA/Ano2-ECT/RC1/Final Project-GNS3/finalProject/project-files/dynamips
+Nov 30 15:48:02.188 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/joaoafonso/Desktop/UA/Ano2-ECT/RC1/Final Project-GNS3/finalProject/project-files/dynamips/34d76e21-ca04-4671-9ef1-f473c9859461 
+Nov 30 15:48:02.188 GENERAL: working_dir=/Users/joaoafonso/Desktop/UA/Ano2-ECT/RC1/Final Project-GNS3/finalProject/project-files/dynamips/34d76e21-ca04-4671-9ef1-f473c9859461
+Nov 30 15:48:02.188 HYPERVISOR: exec_cmd: vm create R1 3 c3725 
+Nov 30 15:48:02.190 VM: VM R1 created.
+Nov 30 15:48:02.191 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5005 
+Nov 30 15:48:02.191 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Nov 30 15:48:02.192 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Nov 30 15:48:02.192 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 15:48:02.193 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60a68e70 
+Nov 30 15:48:02.193 HYPERVISOR: exec_cmd: vm set_ios R1 /Users/joaoafonso/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Nov 30 15:48:02.194 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c203.1c85.0000 
+Nov 30 15:48:02.194 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Nov 30 15:48:02.194 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Nov 30 15:48:02.654 HYPERVISOR: exec_cmd: nio create_udp udp-8ca3b020-46dc-4131-9b5b-95d845611f89 10004 127.0.0.1 10005 
+Nov 30 15:48:02.889 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-8ca3b020-46dc-4131-9b5b-95d845611f89 
+Nov 30 15:48:02.890 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 15:48:02.955 HYPERVISOR: exec_cmd: nio create_udp udp-028538b3-f450-4228-adff-f10e5bea2259 10008 127.0.0.1 10009 
+Nov 30 15:48:02.958 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-028538b3-f450-4228-adff-f10e5bea2259 
+Nov 30 15:48:02.958 HYPERVISOR: exec_cmd: vm get_status R1 
