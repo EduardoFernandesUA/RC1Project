@@ -1,55 +1,46 @@
-Dec 09 15:47:11.064 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
-Dec 09 15:47:11.064 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49442.
-Dec 09 15:47:11.074 HYPERVISOR: exec_cmd: hypervisor version 
-Dec 09 15:47:11.074 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips 
-Dec 09 15:47:11.074 GENERAL: working_dir=/Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips
-Dec 09 15:47:11.075 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips/aab86f4c-cf6e-46cf-a703-4aa98504c68d 
-Dec 09 15:47:11.075 GENERAL: working_dir=/Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips/aab86f4c-cf6e-46cf-a703-4aa98504c68d
-Dec 09 15:47:11.075 HYPERVISOR: exec_cmd: vm create ISP 2 c3725 
-Dec 09 15:47:11.075 VM: VM ISP created.
-Dec 09 15:47:11.076 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5018 
-Dec 09 15:47:11.076 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISP 
-Dec 09 15:47:11.077 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
-Dec 09 15:47:11.077 HYPERVISOR: exec_cmd: vm get_status ISP 
-Dec 09 15:47:11.078 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x60a68e70 
-Dec 09 15:47:11.079 HYPERVISOR: exec_cmd: vm set_ios ISP /Users/joaoafonso/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
-Dec 09 15:47:11.079 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISP c202.0fbc.0000 
-Dec 09 15:47:11.080 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
-Dec 09 15:47:11.929 HYPERVISOR: exec_cmd: nio create_udp udp-b8a10734-10b1-4619-83c4-49d8e9dc7222 10010 127.0.0.1 10011 
-Dec 09 15:47:12.161 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-b8a10734-10b1-4619-83c4-49d8e9dc7222 
-Dec 09 15:47:12.163 HYPERVISOR: exec_cmd: vm get_status ISP 
-Dec 09 15:47:12.444 HYPERVISOR: exec_cmd: nio create_udp udp-23af8760-0bcd-4d7a-a16d-b548a822a87c 10014 127.0.0.1 10015 
-Dec 09 15:47:12.448 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 1 udp-23af8760-0bcd-4d7a-a16d-b548a822a87c 
-Dec 09 15:47:12.449 HYPERVISOR: exec_cmd: vm get_status ISP 
-Dec 09 15:54:33.730 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
-Dec 09 15:54:33.734 VM: VM Ghost created.
-Dec 09 15:54:33.736 HYPERVISOR: exec_cmd: vm set_ios Ghost /Users/joaoafonso/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
-Dec 09 15:54:33.736 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
-Dec 09 15:54:33.737 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
-Dec 09 15:54:33.738 HYPERVISOR: exec_cmd: vm get_status Ghost 
-Dec 09 15:54:33.739 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
-Dec 09 15:54:33.739 HYPERVISOR: exec_cmd: vm start Ghost 
-Dec 09 15:54:34.069 HYPERVISOR: exec_cmd: vm get_status Ghost 
-Dec 09 15:54:34.071 HYPERVISOR: exec_cmd: vm stop Ghost 
-Dec 09 15:54:34.463 VM: VM Ghost shutdown.
-Dec 09 15:54:34.465 HYPERVISOR: exec_cmd: vm extract_config Ghost 
-Dec 09 15:54:34.471 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
-Dec 09 15:54:34.471 VM: VM Ghost destroyed.
-Dec 09 15:54:34.474 HYPERVISOR: exec_cmd: vm set_ghost_status ISP 2 
-Dec 09 15:54:34.475 HYPERVISOR: exec_cmd: vm set_ghost_file ISP /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
-Dec 09 15:54:34.476 HYPERVISOR: exec_cmd: vm get_status ISP 
-Dec 09 15:54:34.477 HYPERVISOR: exec_cmd: vm set_config ISP configs/i2_startup-config.cfg 
-Dec 09 15:54:34.478 HYPERVISOR: exec_cmd: vm start ISP 
-Dec 09 16:04:19.259 HYPERVISOR: exec_cmd: vm get_status ISP 
-Dec 09 16:04:19.260 HYPERVISOR: exec_cmd: vm stop ISP 
-Dec 09 16:04:19.360 VM: VM ISP shutdown.
-Dec 09 16:04:19.362 HYPERVISOR: exec_cmd: vm extract_config ISP 
-Dec 09 16:24:11.891 HYPERVISOR: exec_cmd: vm set_ghost_status ISP 2 
-Dec 09 16:24:11.895 HYPERVISOR: exec_cmd: vm set_ghost_file ISP /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
-Dec 09 16:24:11.895 HYPERVISOR: exec_cmd: vm get_status ISP 
-Dec 09 16:24:11.896 HYPERVISOR: exec_cmd: vm set_config ISP configs/i2_startup-config.cfg 
-Dec 09 16:24:11.896 HYPERVISOR: exec_cmd: vm start ISP 
-Dec 09 16:30:56.430 HYPERVISOR: exec_cmd: vm get_status ISP 
-Dec 09 16:30:56.433 HYPERVISOR: exec_cmd: vm stop ISP 
-Dec 09 16:30:56.534 VM: VM ISP shutdown.
-Dec 09 16:30:56.537 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Dec 10 11:22:52.214 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 10 11:22:52.214 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49469.
+Dec 10 11:22:52.225 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 10 11:22:52.226 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips 
+Dec 10 11:22:52.226 GENERAL: working_dir=/Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips
+Dec 10 11:22:52.227 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips/aab86f4c-cf6e-46cf-a703-4aa98504c68d 
+Dec 10 11:22:52.227 GENERAL: working_dir=/Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips/aab86f4c-cf6e-46cf-a703-4aa98504c68d
+Dec 10 11:22:52.227 HYPERVISOR: exec_cmd: vm create ISP 2 c3725 
+Dec 10 11:22:52.228 VM: VM ISP created.
+Dec 10 11:22:52.229 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5018 
+Dec 10 11:22:52.229 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISP 
+Dec 10 11:22:52.230 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Dec 10 11:22:52.231 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 10 11:22:52.232 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x60a68e70 
+Dec 10 11:22:52.233 HYPERVISOR: exec_cmd: vm set_ios ISP /Users/joaoafonso/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 10 11:22:52.234 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISP c202.0fbc.0000 
+Dec 10 11:22:52.236 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
+Dec 10 11:22:53.061 HYPERVISOR: exec_cmd: nio create_udp udp-6f45dc3b-6364-40ce-8ed0-47d9f62c6fb3 10010 127.0.0.1 10011 
+Dec 10 11:22:53.286 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-6f45dc3b-6364-40ce-8ed0-47d9f62c6fb3 
+Dec 10 11:22:53.287 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 10 11:22:53.372 HYPERVISOR: exec_cmd: nio create_udp udp-bdee3a9e-7dbb-4407-8edc-c9aff772653d 10014 127.0.0.1 10015 
+Dec 10 11:22:53.376 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 1 udp-bdee3a9e-7dbb-4407-8edc-c9aff772653d 
+Dec 10 11:22:53.377 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 10 11:24:42.046 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Dec 10 11:24:42.046 VM: VM Ghost created.
+Dec 10 11:24:42.048 HYPERVISOR: exec_cmd: vm set_ios Ghost /Users/joaoafonso/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 10 11:24:42.048 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Dec 10 11:24:42.049 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 10 11:24:42.049 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Dec 10 11:24:42.051 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Dec 10 11:24:42.051 HYPERVISOR: exec_cmd: vm start Ghost 
+Dec 10 11:24:42.424 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Dec 10 11:24:42.425 HYPERVISOR: exec_cmd: vm stop Ghost 
+Dec 10 11:24:42.586 VM: VM Ghost shutdown.
+Dec 10 11:24:42.588 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Dec 10 11:24:42.595 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Dec 10 11:24:42.596 VM: VM Ghost destroyed.
+Dec 10 11:24:42.601 HYPERVISOR: exec_cmd: vm set_ghost_status ISP 2 
+Dec 10 11:24:42.603 HYPERVISOR: exec_cmd: vm set_ghost_file ISP /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 10 11:24:42.605 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 10 11:24:42.608 HYPERVISOR: exec_cmd: vm set_config ISP configs/i2_startup-config.cfg 
+Dec 10 11:24:42.613 HYPERVISOR: exec_cmd: vm start ISP 
+Dec 10 11:54:44.231 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 10 11:54:44.232 HYPERVISOR: exec_cmd: vm stop ISP 
+Dec 10 11:54:44.340 VM: VM ISP shutdown.
+Dec 10 11:54:44.344 HYPERVISOR: exec_cmd: vm extract_config ISP 
