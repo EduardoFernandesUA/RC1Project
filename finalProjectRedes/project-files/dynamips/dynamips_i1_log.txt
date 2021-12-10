@@ -37,3 +37,35 @@ Dec 10 11:54:44.231 HYPERVISOR: exec_cmd: vm get_status R0
 Dec 10 11:54:44.232 HYPERVISOR: exec_cmd: vm stop R0 
 Dec 10 11:54:44.358 VM: VM R0 shutdown.
 Dec 10 11:54:44.360 HYPERVISOR: exec_cmd: vm extract_config R0 
+Dec 10 15:18:13.716 HYPERVISOR: exec_cmd: vm set_ghost_status R0 2 
+Dec 10 15:18:13.717 HYPERVISOR: exec_cmd: vm set_ghost_file R0 /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 10 15:18:13.718 HYPERVISOR: exec_cmd: vm get_status R0 
+Dec 10 15:18:13.718 HYPERVISOR: exec_cmd: vm set_config R0 configs/i1_startup-config.cfg 
+Dec 10 15:18:13.719 HYPERVISOR: exec_cmd: vm start R0 
+Dec 10 15:24:52.823 HYPERVISOR: exec_cmd: vm get_status R0 
+Dec 10 15:24:52.823 HYPERVISOR: exec_cmd: vm stop R0 
+Dec 10 15:24:52.957 VM: VM R0 shutdown.
+Dec 10 15:24:52.961 HYPERVISOR: exec_cmd: vm extract_config R0 
+Dec 10 15:25:32.278 HYPERVISOR: exec_cmd: vm set_ghost_status R0 2 
+Dec 10 15:25:32.280 HYPERVISOR: exec_cmd: vm set_ghost_file R0 /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 10 15:25:32.280 HYPERVISOR: exec_cmd: vm get_status R0 
+Dec 10 15:25:32.282 HYPERVISOR: exec_cmd: vm set_config R0 configs/i1_startup-config.cfg 
+Dec 10 15:25:32.282 HYPERVISOR: exec_cmd: vm start R0 
+Dec 10 15:36:02.614 HYPERVISOR: exec_cmd: vm extract_config R0 
+Dec 10 15:36:02.620 HYPERVISOR: exec_cmd: vm extract_config R0 
+Dec 10 15:36:40.989 HYPERVISOR: exec_cmd: nio bind_filter udp-5920993a-4f60-4659-a653-2e54e9e764aa 2 capture 
+Dec 10 15:36:40.990 HYPERVISOR: exec_cmd: nio setup_filter udp-5920993a-4f60-4659-a653-2e54e9e764aa 2 en10mb /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/captures/R0_FastEthernet00_to_R1_FastEthernet00.pcap 
+Dec 10 15:40:03.006 HYPERVISOR: exec_cmd: vm get_status R0 
+Dec 10 15:40:03.008 HYPERVISOR: exec_cmd: vm stop R0 
+Dec 10 15:40:03.127 VM: VM R0 shutdown.
+Dec 10 15:40:03.130 HYPERVISOR: exec_cmd: vm extract_config R0 
+Dec 10 15:40:03.154 HYPERVISOR: exec_cmd: nio unbind_filter udp-5920993a-4f60-4659-a653-2e54e9e764aa 2 
+Dec 10 15:47:32.769 HYPERVISOR: exec_cmd: vm set_ghost_status R0 2 
+Dec 10 15:47:32.772 HYPERVISOR: exec_cmd: vm set_ghost_file R0 /Users/joaoafonso/Desktop/project/finalProjectRedes/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Dec 10 15:47:32.772 HYPERVISOR: exec_cmd: vm get_status R0 
+Dec 10 15:47:32.775 HYPERVISOR: exec_cmd: vm set_config R0 configs/i1_startup-config.cfg 
+Dec 10 15:47:32.775 HYPERVISOR: exec_cmd: vm start R0 
+Dec 10 16:08:03.538 HYPERVISOR: exec_cmd: vm get_status R0 
+Dec 10 16:08:03.539 HYPERVISOR: exec_cmd: vm stop R0 
+Dec 10 16:08:03.658 VM: VM R0 shutdown.
+Dec 10 16:08:03.660 HYPERVISOR: exec_cmd: vm extract_config R0 
