@@ -394,6 +394,24 @@
                 "x": 457,
                 "y": 124,
                 "z": 1
+            },
+            {
+                "drawing_id": "e7e3ce05-0022-4270-8e71-c3999cee59c3",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"96\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">200.130.103.131</text></svg>",
+                "x": -151,
+                "y": -379,
+                "z": 2
+            },
+            {
+                "drawing_id": "cab36426-afe6-488d-9e1f-8040efc967af",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"98\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">200.130.103.195</text></svg>",
+                "x": -163,
+                "y": 303,
+                "z": 2
             }
         ],
         "links": [
@@ -1432,5 +1450,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.26",
-    "zoom": 95
+    "zoom": 80
 }
